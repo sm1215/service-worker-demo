@@ -1,5 +1,7 @@
 // Notes taken from https://developers.google.com/web/fundamentals/primers/service-workers/
 
+// SW can only be used with https or a localhost dev environment for security purposes and the level of access SW's have
+
 // If using Chrome, you can check the status of service workers by visiting:
 // chrome://inspect/#service-workers
 
