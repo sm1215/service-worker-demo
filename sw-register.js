@@ -12,7 +12,7 @@ if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
 
     // Calling register on every page load is fine, the browser figures out if the SW is already registered or not
-    navigator.serviceWorker.register('/sw.js').then(function(registration) {
+    navigator.serviceWorker.register('sw.js').then(function(registration) {
       
       // Success
       console.log(`SW registered successfully with scope ${registration.scope}`);

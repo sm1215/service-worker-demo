@@ -12,7 +12,7 @@ const app = {
   },
   
   syncData: function() {
-    fetch('/data.js')
+    fetch('data.js')
       .then((response) => {
         return response.json();
       })
