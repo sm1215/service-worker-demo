@@ -29,3 +29,6 @@ if ('serviceWorker' in navigator) {
     })
   })
 }
+
+// js 'self' keyword
+// https://stackoverflow.com/questions/16875767/difference-between-this-and-self-in-javascript
